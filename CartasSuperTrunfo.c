@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Declarando variáveis a serem utilizadas
+    // Declarando variáveis a serem utilizadas (mentendo as variaveis iniciais)
     char estado[2];       // Para armazenar a letra do estado
     char codigo[4];       // Para armazenar o código da carta
     char nome[20];        // Para armazenar o nome da cidade
