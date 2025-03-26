@@ -84,7 +84,7 @@ int main() {
            estado2, codigo2, nome2, populacao2, N_P_turistico2, area2, Pib2);
     printf("Densidade Populacional: %.2f hab/km²\nPIB per Capita: %.2f milhões\nSuper Poder: %.2f\n", densidade2, pib_per_capita2, super_poder2);
 
-    // Comparação das cartas do jogo
+    // Comparação das cartas
     printf("\n=== Comparação de Cartas ===\n");
     printf("População: Carta 1 venceu (%d)\n", populacao1 > populacao2);
     printf("Área: Carta 1 venceu (%d)\n", area1 > area2);
