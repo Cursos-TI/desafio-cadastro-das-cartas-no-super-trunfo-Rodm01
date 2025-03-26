@@ -49,7 +49,7 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade);  // Imprime a densidade populacional
     
     // Limpeza do buffer antes de começar a Carta 2
-    getchar(); // Limpa o buffer
+    getchar(); 
 
     // Cadastro da Carta 2
     printf("\n=== Cadastro da Carta 2 ===\n");
@@ -60,7 +60,7 @@ int main() {
     scanf("%3s", codigo2); // Lê o código da carta
 
     // Limpar o buffer antes de ler o nome
-    getchar(); // Limpa o buffer
+    getchar(); 
 
     printf("Nome da cidade: ");
     scanf(" %[^\n]", nome); // Lê o nome da cidade, permitindo espaços
@@ -88,9 +88,9 @@ int main() {
     printf("Nome: %s\n", nome);
     printf("População: %d\n", populacao);
     printf("Pontos turísticos: %d\n", N_P_turistico);
-    printf("Área: %.2f km²\n", area);  // Imprime a área com 2 casas decimais
-    printf("PIB: %.2f milhões\n", Pib);  // Imprime o PIB com 2 casas decimais
-    printf("Densidade Populacional: %.2f hab/km²\n", densidade);  // Imprime a densidade populacional
+    printf("Área: %.2f km²\n", area);  //  área com 2 casas decimais
+    printf("PIB: %.2f milhões\n", Pib);  //  PIB com 2 casas decimais
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade);  //  densidade populacional
     
     return 0;
 }
